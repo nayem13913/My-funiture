@@ -1,0 +1,249 @@
+@media (max-width:600px) {
+
+    /* header part start  */
+    header{
+        height:90px;
+    }
+    header .logo img{
+        margin-left:0;
+        margin-bottom:17px;
+    }
+    header .nav .btn{
+        display: block;
+        margin-right:40px;
+        margin-top:-10px;
+    }
+    header .nav ul{
+        position:fixed;
+        top:108px;
+        left:-350px;
+    }
+    header .nav ul li{
+        text-align: center;
+        width:100vw;
+        padding:10px;
+        background-color:rgba(20,10,30,.9);
+    }
+    #check:checked ~ ul{
+        left:150px;
+    }
+    /* header part end  */
+
+
+
+    /* first section start  */
+    .FirstSection{
+        display:block;
+        height: 800px ;
+    }
+    .FirstSection 
+    .text-one h1{
+        font-size:35px;
+        padding-top:100px;
+        margin-left:20px;
+    }
+    .FirstSection 
+    .text-one p{
+        width:200px;
+        margin-left:25px;
+    }
+    .FirstSection 
+    .text-one a{
+        margin-left:30px;
+    }
+
+    .FirstSection .sofa{
+        margin-top:100px;
+        margin-left:30px;
+        width:260px;
+    }
+    /* first section end  */
+      
+
+
+    /* second section start  */
+    .Second-section {
+        display: block;
+        height: auto;
+    }
+    .Second-section 
+    .leftSide{
+        left:25px;
+        top:350px;
+        width:270px;
+        height:700px;
+        /* border:1px solid; */
+    }
+    .Second-section 
+    .leftSide .chair{
+        width:100%;
+        left:0px;
+    }
+    .Second-section 
+    .leftSide .chair img{
+        /* width:100%; */
+        margin-left:-20px;
+    }
+    .Second-section 
+    .leftSide .ard-1,  .ard-2{
+        display: none;
+    }
+
+
+    .Second-section .text-two{
+        top:0;
+        left:50px;
+    }
+    .Second-section .text-two h1{
+        width:170px;
+    }
+    .Second-section .text-two p{
+        width:240px;
+    }
+    .Second-section .text-two a{
+        padding:10px 10px;
+    }
+    /* second section end  */
+
+    /* third section stat  */
+    .third-section{
+        margin-top:1200px;
+    }
+    .third-section .text-three h1{
+        font-size:28px;
+    }
+    .third-section .text-three p{
+        font-size:14px;
+        text-align:justify;
+        width:270px;
+    }
+
+    .third-section 
+  .collection{
+    display:block;
+    width:80%;
+  }
+  .third-section 
+  .collection .gadget{
+    width:200px;
+    margin-top:30px;
+  }
+  .third-section 
+  .collection .gadget .eid{
+    width:230px;
+  }
+/* third section end  */
+.section-four{
+    display: block;
+    height:400px;
+    padding-top:100px;
+
+}
+.section-four .left-im{
+    width:290px;
+    margin-left:20px; 
+}
+.section-four .search{
+    right:0;
+    top:0px;
+}
+
+.section-four .search h1{
+    font-size:25px;
+    text-align:center;
+}
+.section-four .search 
+input[type=text],select{
+    width:80%;
+    margin-left:25px;
+    border-radius:0;
+}
+.section-four .search a{
+    margin-left:30px;
+}
+/* section four end  */
+
+
+
+
+/* section five start  */
+.section-five{
+    width:100%;
+    display: block;
+}
+.section-five .form-box{
+    width:85%;
+    left:30px;
+}
+.section-five .form-box h1{
+    text-align: center;
+}
+input[type=text], input[type=email]{
+    width:90%;
+    height: 40px;
+}
+.section-five .form-box textarea{
+    width:93%;
+}
+
+.section-five .form-box a{
+    margin-left:50px;
+}
+
+.section-five .map{
+    width:300px;
+    height: 300px;
+    right:-10px;
+    margin-top:100px;
+}
+.section-five .map iframe{
+    width:100%;
+    height: 300px;
+}
+/* section five end  */
+
+
+
+
+/* footer part start  */
+footer{
+    height:900px;
+    margin-top:300px;
+}
+footer .first-foot{
+    display:block;
+}
+footer .first-foot 
+.location, .phone, .message{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+footer .second-foot{
+    display:block;
+}
+footer .second-foot .navi, .repair, 
+.social-media, .repair-center h1{
+    margin-left:20px;
+}
+footer .second-foot .navi, .repair, 
+.social-media, .repair-center{
+    margin-top:40px;
+}
+
+footer .second-foot .repair-center p{
+    margin-left:20px;
+    /* width:200px; */
+}
+
+footer .copyright p{
+    font-size:14px;
+}
+footer .copyright p span{
+    font-size:20px;
+    margin-left:130px;
+}
+/* footer part end  */
+}
+
+/* all content end */
