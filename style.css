@@ -113,7 +113,7 @@ header .nav ul li a{
 
 
  /* second section start  */
- .Second-section{
+ #about{
     width:100%;
     height: 700px;
     display: flex;
@@ -121,21 +121,21 @@ header .nav ul li a{
     top:100px;
  }
 
- .Second-section .leftSide{
+ #about .leftSide{
     width: 400px;
     height: 670px;
     position: absolute;
     left:200px;
     align-items: center;
  }
- .Second-section .leftSide .ard-1{
+ #about .leftSide .ard-1{
     width:150px;
     height: 140px;
     position: absolute;
     top:20px;
     left:20px;
  }
- .Second-section 
+ #about 
  .leftSide .ard-2{
     width:150px;
     height: 140;
@@ -145,7 +145,7 @@ header .nav ul li a{
  }
 
 
- .Second-section 
+ #about 
  .leftSide .chair{
     border: 1px solid;
     max-width: 300px;
@@ -155,23 +155,23 @@ header .nav ul li a{
     top:50px;
     
  }
- .Second-section 
+ #about 
  .leftSide .chair img{
     padding:40px 30px;
  }
 
- .Second-section .text-two{
+ #about .text-two{
     position: absolute;
     right: 150px;
     top:100px;
  }
- .Second-section 
+ #about 
  .text-two h1{
     font-size:35px;
     font-weight:bold;
     color:#7C2C0C;
  }
- .Second-section .text-two p{
+ #about .text-two p{
     font-size:17px;
     color: rgba(0,0,0,.6);
     font-family: Arial, Helvetica, sans-serif;
@@ -180,14 +180,14 @@ header .nav ul li a{
     margin-bottom:50px;
 
  }
- .Second-section .text-two a{
+ #about .text-two a{
     text-decoration: none;
     color:#7C2C0C;
     padding:12px 40px;
     border: 1px solid #7C2C0C ;
     font-size: 20px;
  }
- .Second-section .text-two a:hover{
+ #about .text-two a:hover{
     color:#fff;
     background-color: #7C2C0C;
     transition: .5s;
@@ -199,7 +199,7 @@ header .nav ul li a{
 
  
  /* third section start  */
- .third-section{
+ #design{
     width:100%;
     height: auto;
     /* position: relative; */
@@ -210,23 +210,23 @@ header .nav ul li a{
     align-items: center;
     margin-top:170px;
  }
- .third-section .text-three{
+ #design .text-three{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
  }
- .third-section .text-three h1{
+ #design .text-three h1{
     font-size: 40px;
     font-weight: bold;
     color:#7C2C0C;
  }
- .third-section .text-three p{
+ #design .text-three p{
     font-size: 17px;
     color:rgba(0,0,0,.6);
     margin-top:-15px;
  }
- .third-section 
+ #design 
   .collection{
    display: flex;
    justify-content: space-around;
@@ -235,7 +235,7 @@ header .nav ul li a{
    margin-top:40px;
   }
 
-  .third-section 
+  #design 
   .collection .gadget{
       width:250px;
       height:450px;
@@ -247,23 +247,23 @@ header .nav ul li a{
       padding:30px;
 
   }
-  .third-section 
+  #design 
   .collection .gadget:hover{
    background-color:#EFE4D1;
    transition: .5s  ;
    border:none;
   }
-  .third-section 
+  #design 
   .collection .gadget .ch{
    font-size: 23px;
    color:#7C2C0C;
   }
-  .third-section 
+  #design 
   .collection .gadget .price{
    font-size: 23px;
    color:#7C2C0C;
   }
-  .third-section 
+  #design 
   .collection .gadget a{
    font-size: 20px;
    padding:10px 40px;
@@ -272,7 +272,7 @@ header .nav ul li a{
    text-decoration: none;
    border-radius: 5px;
   }
-  .third-section 
+  #design 
   .collection .second-collection img {
       padding: 60px 0;
   }
